@@ -21,3 +21,6 @@
 
 ## 05. 3 Column preview card component
 ![Design preview](./preview-images/3-column-preview-card.jpg)
+
+## 06. Profile card component
+![Design preview](./preview-images/profile-card-component.jpg)
