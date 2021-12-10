@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Spartan', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.social .title {
+    color: hsl(300, 43%, 22%);
+    font-size: 2.5rem;
+    margin: 50px 0 0 0;
+}
+
+.social .sub-title{
+    color: hsl(303, 10%, 53%);
+    margin: 30px;
+}
+
+.star {
+    background: hsl(300, 24%, 96%);
+    font-weight: 500;
+    margin: 20px 0;
+    padding: 25px 15px;
+    border-radius: 10px;
+}
+
+.star img {
+    margin: 10px 3px;
+}
+
+/* Cards */
+
+.cards {
+    margin-top: 30px;
+}
+
+.card {
+    background: hsl(300, 43%, 22%);
+    color: #fff;
+    margin: 15px 20px;
+    padding: 55px 30px;
+    border-radius: 10px;
+}
+
+.card .profile {
+    display: flex;
+    align-items: center;
+    padding: 0 0 20px 0;
+}
+
+.card .profile img {
+    border-radius: 50%;
+    /* width: 15%; */
+    margin-right: 30px;
+}
+
+.card .profile .name {
+    font-weight: 700;
+}
+
+.card .profile .name span {
+    color: hsl(333, 80%, 67%);
+    font-weight: 500;
+}
+
+.card .profile .status {
+
+}
+
+.card .review {
+    line-height: 1.6rem;
+}
