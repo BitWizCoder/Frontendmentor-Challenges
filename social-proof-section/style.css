@@ -12,7 +12,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* height: 100vh; */
 }
 
 .social {
@@ -40,6 +39,11 @@ body {
     padding: 25px 15px;
     border-radius: 10px;
 }
+
+.stars .star-1, .stars .star-2, .stars .star-3 {
+    /* margin: 20px auto; */
+}
+
 
 .star img {
     margin: 10px 3px;
@@ -73,6 +77,7 @@ body {
 
 .card .profile .name {
     font-weight: 700;
+    line-height: 1.5rem;
 }
 
 .card .profile .name span {
@@ -86,4 +91,119 @@ body {
 
 .card .review {
     line-height: 1.6rem;
+}
+
+/* Desktop Version */
+@media screen and (min-width: 550px) {
+    body {
+        margin: 40px 50px;
+    }
+    .social {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .social .sub-title {
+        margin: 15px 0; 
+    }
+
+
+    .text {
+        flex: 1;
+        text-align: left;
+        padding-right: 100px;
+    } 
+    .stars {
+        flex: 1;
+    }
+
+    .star {
+        padding: 8px 30px 8px;
+        width: 400px;
+        border-radius: 5px;
+    }
+
+    .star-1 {
+        margin-left: 70px;
+    }
+
+    .star-2 {
+        margin-left: 120px;
+    }
+
+    .star-3 {
+        margin-left: 200px;
+    }
+
+    .icons {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .icons p {
+        font-size: 0.8rem;
+        font-weight: 600;
+    }
+
+    /* Cards */
+    .cards {
+        display: flex;
+    }
+
+    .card {
+        padding: 20px 30px;
+    }
+
+    .cards .card-2 {
+        margin-top: 30px;
+    }
+
+    .cards .card-3 {
+        margin-top: 50px;
+    }
+
+}
+
+/* Middle break point */
+@media screen and (max-width: 1165px) {
+    .social {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .social .text {
+        text-align: center;
+        padding: 0;
+    }
+
+    .star {
+        width: 400px;
+        padding: 0;
+    }
+
+    .star-1, .star-2, .star-3 {
+        margin: 20px 0;
+        padding: 20px 0;
+    }
+
+    .icons {
+        justify-content: center;
+    }
+
+    .icons p {
+        margin-left: 20px;
+    }
+
+    /* Cards */
+    .cards {
+        flex-wrap: wrap;
+    }
+
+    .card {
+        margin: 10px auto;
+        width: 80%;
+    }
 }

@@ -24,3 +24,6 @@
 
 ## 06. Profile card component
 ![Design preview](./preview-images/profile-card-component.jpg)
+
+## 07. Social proof section
+![Design preview](./preview-images/social-proof-section.jpg)
