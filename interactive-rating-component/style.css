@@ -16,12 +16,20 @@ body {
 /* Rating */
 .rating {
   background-color: hsl(213, 19%, 18%);
-  flex-direction: column;
   width: 370px;
   margin: 50px auto;
   padding: 40px;
   border-radius: 30px;
-  flex-basis: auto;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
 }
 
 .fa-star {
@@ -106,6 +114,10 @@ ul .active {
   }
   .rating-point {
     font-size: 0.8rem;
+  }
+
+  ul li {
+    margin: 0 5px;
   }
 }
 
