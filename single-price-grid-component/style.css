@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Karla', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 620px;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: hsl(204, 43%, 93%);
+}
+
+h1 {
+    font-size: 1.2rem;
+}
+
+/* container */
+/* .container {
+} */
+
+/* Join */
+.join {
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px 10px 0 0 ;
+}
+
+.join h1 {
+    margin: 0px 0 10px 0;
+    color: hsl(179, 62%, 43%);
+}
+
+.join h3 {
+    color: hsl(71, 73%, 54%);
+    padding: 12px 0;
+}
+
+.join p {
+    color: hsl(218, 22%, 67%);
+}
+
+/* price */
+.price {
+    background-color: hsl(179, 62%, 43%);
+    width: 50%;
+    padding: 40px;
+    border-radius: 0 0 0 10px;
+}
+
+.price h1 {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.price p {
+    color: hsl(204, 43%, 93%);
+}
+
+.price p span {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+/* Button */
+.sign-up {
+    width: 100%;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    margin-top: 30px;
+    font-size: 1rem;
+    background-color: hsl(71, 73%, 54%);
+    color: #fff;
+    cursor: pointer;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.sign-up:hover {
+    color: hsl(71, 73%, 54%);
+    background-color: #fff;
+}
+
+/* why */
+.why {
+    background-color: hsla(179, 62%, 43%, 0.767);
+    padding: 40px;
+    width: 50%;
+    border-radius: 0 0 10px 0;
+    color: hsl(204, 43%, 93%);
+}
+
+.why h1 {
+    margin-bottom: 12px;
+}
+
+.why p {
+    line-height: 1.4rem;
+}
+
+/* Bottom */
+.bottom {
+    display: flex;
+    flex: 1;
+}
+
+.attribution {
+    text-align: center;
+    margin: 30px;
+}
+
+.attribution a {
+    text-decoration: none;
+    color: hsl(179, 62%, 43%);
+}
+
+@media (max-width: 750px) {
+    body{
+        width: 100%;
+        overflow: auto;
+        margin: 20px 0;
+        height: auto;
+    }
+
+    .join {
+        width: 50%;
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    .bottom {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .price {
+        border-radius: 0;
+        width: 80%;
+    }
+
+    .why {
+        border-radius: 0 0 10px 10px;
+        width: 80%;
+
+    }
+
+    .attribution {
+        font-size: 0.8rem;
+    }
+}
