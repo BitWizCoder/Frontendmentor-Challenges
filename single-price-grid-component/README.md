@@ -20,8 +20,8 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 
 ### Links
 
-- [Solution URL](https://www.frontendmentor.io/solutions/interactive-rating-component-LKal53HyN_)
-- [Live Site URL](https://challenges-frontendmentor.netlify.app/interactive-rating-component/)
+- [Solution URL](https://www.frontendmentor.io/solutions/single-price-grid-component-G9gkWh_Xqk)
+- [Live Site URL](https://challenges-frontendmentor.netlify.app/single-price-grid-component/)
 
 ## My Process
 
