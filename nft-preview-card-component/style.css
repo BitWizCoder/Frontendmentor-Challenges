@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+/* Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+}
+
+
+img {
+    max-width: 100%;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(217, 54%, 11%);
+}
+
+/* Main Section */
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+main {
+    color: aliceblue;
+    background-color: hsl(216, 50%, 16%);
+    max-width: 20rem;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+main img {
+    border-radius: 5px;
+}
+
+main h1 {
+    margin: 10px 0;
+    font-size: 1.5rem;
+}
+
+main p {
+    margin-bottom: 20px;
+}
+
+/* Section */
+section {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+section div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+section p {
+    margin: 0 10px;
+}
+
+section .price {
+    color: hsl(178, 100%, 50%);
+}
+
+section .date {
+    color: hsl(215, 51%, 70%);
+}
+
+
+/* Avatar */
+.avatar {
+    justify-content: flex-start;
+    align-items: center;
+    border-top: 1px solid hsl(215, 32%, 27%);
+    padding-top: 20px;
+    color: hsl(215, 51%, 70%);
+}
+
+.avatar img {
+    width: 18%;
+    border: 1px solid #fff;
+    border-radius: 50px;
+}
+
+.avatar span {
+    font-weight: bold;
+    color: #fff;
+}
+
+/* Footer */
+footer {
+    color: #fff;
+    font-size: .8rem;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+footer a {
+    color: hsl(215, 51%, 70%);
+    text-decoration: none;
+}
+
+/* Media Querie */
+@media (max-width: 650px) {
+    main {
+        margin-top: 1.2rem;
+        max-width: 80%;
+    }
+
+}
