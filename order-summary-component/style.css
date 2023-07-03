@@ -15,9 +15,8 @@ img {
 body {
     background: url(./images/pattern-background-desktop.svg);
     background-color: hsl(225, 100%, 98%);
-    background-repeat: none;
-    background-position: center;
-    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: contain;
     font-family: 'Red Hat Display', sans-serif;
 }
 
