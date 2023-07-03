@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Base Style */
+img {
+    max-width: 100%;
+}
+
+body {
+    background: url(./images/pattern-background-desktop.svg);
+    background-color: hsl(225, 100%, 98%);
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+/* wrapper container */
+.wrapper {
+    background-color: #fff;
+    text-align: center;
+    max-width: 20rem;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Main */
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}    
+
+main img {
+    border-radius: 10px 10px 0 0;
+}
+
+/* Main Heading */
+main h1 {
+    margin: 1rem 0;
+    font-size: 1.8rem;
+}
+
+/* paragrap */
+main p {
+    padding: 0 1rem;
+}
+
+/* Price Section */
+main section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    margin: 1.5rem 0;
+    padding: 1rem;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+}
+
+section p {
+    color: hsl(223, 47%, 23%);
+}
+
+.price {
+    display: flex;
+}
+
+.price img {
+    width: 25%;
+    height: 100%;
+}
+
+.price span {
+    font-weight: bold;
+}
+
+section a {
+    color: hsl(245, 75%, 52%);
+}
+
+section a:hover {
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+}
+
+/* Button */
+button {
+    color: #fff;
+    background-color: hsl(245, 75%, 52%);
+    border: none;
+    padding: .8rem 4rem;
+    border-radius: .4rem;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+
+button:hover {
+    background-color: hsl(245, 83%, 68%);
+}
+
+/* Cancel */
+.cancel {
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: hsl(223, 47%, 23%);
+}
+
+.cancel:hover {
+    color: #000;
+}
+
+/* attribution */
+.attribution {
+    margin-top: 1rem;
+    color: hsl(223, 47%, 23%);
+}
+
+.attribution a {
+    color: hsl(224, 23%, 55%);
+    text-decoration: none;
+}
