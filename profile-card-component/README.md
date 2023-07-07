@@ -1,4 +1,4 @@
-# Frontend Mentor - Interactive rating component solution
+# Profile card component
 
 This is a solution to the [Profile card component](https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
@@ -29,7 +29,7 @@ Users should be able to:
 ### Links
 
 - [Solution URL](https://www.frontendmentor.io/solutions/order-summary-component-vanilla-html-and-css-XJLCOr84YD)
-- [Live Site URL](https://challenges-frontendmentor.netlify.app/order-summary-component/)
+- [Live Site URL](https://challenges-frontendmentor.netlify.app/profile-card-component/)
 
 ## My Process
 
