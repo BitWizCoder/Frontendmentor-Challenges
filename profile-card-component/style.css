@@ -8,10 +8,11 @@
 
 body {
     font-family: 'Kumbh Sans', sans-serif;
-    background: url(./images/bg-pattern-top.svg);
-    background: url(./images/bg-pattern-bottom.svg);
-    background-color: hsl(185, 75%, 39%);
     color: hsl(229, 23%, 23%);
+    background: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
+    background-position: right 50vw bottom 40vh , left 50vw top 40vh ; 
+    background-repeat: no-repeat;
+    background-color: hsl(185, 75%, 39%);
 }
 
 main {
