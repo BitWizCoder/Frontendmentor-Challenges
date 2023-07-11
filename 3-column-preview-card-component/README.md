@@ -20,7 +20,7 @@ This is a solution to the [3-column preview card component challenge on Frontend
 
 ### Links
 
-- [Solution URL](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-/hub)
+- [Solution URL](https://www.frontendmentor.io/solutions/3column-preview-card-component-with-vanilla-html-and-css-Zi-5Eu3Oye)
 - [Live Site URL](https://challenges-frontendmentor.netlify.app/3-column-preview-card-component/)
 
 ## My Process
